@@ -1,0 +1,27 @@
+h1 {
+  color: black;
+  text-align: center;
+  margin: 45px auto;
+  font-size: 47px;
+}
+
+form {
+  padding: 25px;
+}
+
+.emojis {
+  text-align: center;
+  margin: 17px auto;
+  font-size: 30px;
+}
+
+.temp {
+  margin: 10px auto;
+  font-size: 19px;
+}
+
+.day {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+}
