@@ -1,16 +1,17 @@
 body {
   background: #d6cfbf;
+  font-family: "Readex Pro", sans-serif;
 }
 
 h1 {
-  color: blue;
+  color: black;
   text-align: center;
   margin: 45px auto;
   font-size: 47px;
 }
 
 form {
-  padding: 25px;
+  padding: 50px;
 }
 
 .emojis {
