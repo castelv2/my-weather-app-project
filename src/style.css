@@ -1,32 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;700&display=swap");
 body {
   background: #d6cfbf;
   font-family: "Readex Pro", sans-serif;
+}
+.container {
+  display: block;
 }
 
 h1 {
   color: black;
   text-align: center;
-  margin: 45px auto;
+  margin: 10px 250px;
+  padding: 16px 200px;
   font-size: 47px;
+  font-weight: 600;
+  border: 5px solid #f15e47;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+}
+h1:hover {
+  background: #f15e47;
+  color: #d6cfbf;
 }
 
-form {
-  padding: 50px;
-}
-
-.emojis {
+h2 {
   text-align: center;
-  margin: 17px auto;
-  font-size: 30px;
+  font-size: 55px;
+  font-weight: 550;
 }
 
-.temp {
-  margin: 10px auto;
-  font-size: 19px;
+h2 .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
 }
 
-.day {
+h2 .active:hover {
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.list {
+  list-style: none;
+}
+
+.form {
+  margin-top: 15px;
+  border: none;
+}
+.search-form {
+  display: flex;
+}
+input[type="text"] {
+  font-weight: 700;
+  font-size: 65px;
+  background-color: transparent;
+  border: none;
+}
+input[type="submit"] {
+  display: block;
+  border: none;
+  padding: 20px 30px;
+}
+
+.descript {
+  text-transform: capitalize;
+}
+.osc {
+  margin: 30px auto;
+  font-size: 15px;
+}
+
+.row {
+  margin-top: 20px;
+  border: 5px solid #1a64d6;
+  border-radius: 30px;
+}
+.col-1 {
+  padding-left: 190px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
-  padding-top: 50px;
-  font-size: 20px;
+  font-size: 27px;
 }
