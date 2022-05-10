@@ -43,10 +43,6 @@ h3 {
   font-weight: 600;
 }
 
-.list {
-  list-style: none;
-}
-
 .form {
   margin-top: 15px;
   border: none;
@@ -68,7 +64,16 @@ input[type="submit"] {
 
 .descript {
   text-transform: capitalize;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
 }
+
+.details {
+  font-weight: bold;
+  text-align: center;
+}
+
 .osc {
   margin: 30px auto;
   font-size: 15px;
